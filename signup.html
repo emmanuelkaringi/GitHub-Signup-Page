@@ -4,34 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>GitHub Signup Page</title>
 </head>
 <body>
 
-    <div class="container">
-
-        <form>
+    
+    <form>
+        <div class="container">
             <p>Join GitHub</p>
             <h1>First, let's create your user account</h1>
     
             <label for="username">Username <span>&#42;</span></label>
-            <input type="text" id="username" name="username" required></br>
+            <input type="text" id="username" name="username" required>
+
             <label for="email">Email address <span>&#42;</span></label>
-            <input type="email" id="email" name="email" required></br>
+            <input type="email" id="email" name="email" required>
+
             <label for="password">Password <span>&#42;</span></label>
-            <input type="password" id="password" name="password" required></br>
+            <input type="password" id="password" name="password" required>
     
             <p>Make sure it's at least 15 characters OR at least 8 characters including a number and a lowercase letter.</p>
             <p><a href="https://docs.github.com/en/site-policy/github-terms/github-terms-of-service" target="_blank">Learn more</a></p></br>
-            <label for="product"><b>Email preferences</b></label>
-            <input type="checkbox" id="product" name="product" value="product">
-            <label for="product">Send me occasional product updates, announcements, and offers.</label><br>
+            
+            <label for="product"><b>Email preferences</b></label><br>
+            <input type="checkbox" id="product" name="product" value="product">Send me occasional product updates, announcements, and offers.
     
+        </br>
             <input type="button" value="Create account">
             <p>By creating an account, you agree to the <a href="https://docs.github.com/en/site-policy/github-terms/github-terms-of-service" target="_blank">Terms of Service</a>. For more information about Github's privacy practices, see the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement" target="_blank">GitHub Privacy Statement</a>. We'll occasionally send you account-related emails.</p>
     
-        </form>
-    </div>
+        </div>
+    </form>
     
 </body>
 </html>
